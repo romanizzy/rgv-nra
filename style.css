@@ -186,3 +186,20 @@ section{
     grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
     gap: 2em;
 }
+.location-box{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 2em;
+}
+.location-box h1{
+    font-size: 5em;
+}
+.location-box p{
+    color: white;
+    opacity: 0.8;
+}
+.location-box image{
+    min-width: 25px;
+    border-radius: 0.5em;
+}
