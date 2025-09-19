@@ -193,7 +193,7 @@ section{
     font-size: 2.5em;
 }*/
 
-#services{
+#educate{
     background-color: var(--background);
 }
 .header{
@@ -201,7 +201,7 @@ section{
     font-size: 5em;
     margin: 0.5em 0;
 }
-.services-container{
+.education-container{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
     gap: 2em;
