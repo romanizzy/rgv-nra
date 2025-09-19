@@ -50,7 +50,7 @@ nav ul a:hover{
 .logo:hover{
     opacity: 1;
 }
-.btn{
+/*.btn{
     padding: 0.5em 1em;
     color: white;
     font-weight: 500;
@@ -64,7 +64,7 @@ nav ul a:hover{
 .btn:hover{
     background-color: white;
     color: var(--background);
-}
+}*/
 span{
     background: linear-gradient(to right, #6cff52, #3ec5ff);
     background-clip: text;
@@ -104,14 +104,14 @@ section{
     font-size: 5em;
     font-weight: 500;
 }
-.info-box h3{
+/*.info-box h3{
     font-size: 2em;
     font-weight: 400;
-}
+}*/
 .info-box p{
     opacity: 0.7;
 }
-.btn-box{
+/*.btn-box{
     display: flex;
     gap: 1em;
 }
@@ -122,7 +122,7 @@ section{
 .btn-box .btn:nth-of-type(2):hover{
     background-color: var(--background);
     color: white;
-}
+}*/
 
 ::-webkit-scrollbar{
     width: 20px;
@@ -132,18 +132,21 @@ section{
     background: linear-gradient(to bottom, #6cff52, #3ec5ff);
 }
 
-#about{
+#locations{
     background-color: var(--background);
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 5em;
 }
-#about img{
+/*#about img{
     width: 30vw;
     border-radius: 1em;
+}*/
+#location h1{
+    font-size: 5em;
 }
-.about-box{
+/*.location-container{
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -155,13 +158,13 @@ section{
 .about-box p{
     color: white;
     opacity: 0.8;
-}
-.skills{
+}*/
+.location-container{
     display: flex;
     text-align: left;
     gap: 10em;
 }
-.skills ul{
+.location-container ul{
     font-size: 1.3em;
     font-weight: 500;
     display: flex;
@@ -170,22 +173,22 @@ section{
     opacity: 0.8;
     align-items: baseline;
 }
-.skills ul li span{
+.location-container ul li span{
     display: flex;
     align-items: center;
     gap: 0.5em;
     font-size: 1.3em;
     transition: 0.3s ease-in-out;
 }
-.skills ul li span:hover{
+.location-container ul li span:hover{
     transform: translateX(10px);
 }
-.skills ul li i{
+.location-container ul li i{
     font-size: 1.2em;
 }
-.about-box h2{
+/*.about-box h2{
     font-size: 2.5em;
-}
+}*/
 
 #services{
     background-color: var(--background);
