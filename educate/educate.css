@@ -1,0 +1,165 @@
+/* Global Styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+    font-family: 'Poppin';
+}
+:root{
+    --background: rgb(24,24,24);
+    --second-background: rgb(21,21,21);
+}
+body{
+    min-height: 100vh;
+    background-color: var(--background);
+    color:white
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0.8em 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(15,15,15,0.8);
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+ul{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+nav ul a{
+    color: white;
+    opacity: 0.7;
+    transition: 0.2s ease-in-out;
+}
+nav ul a:hover{
+    opacity: 1;
+}
+.logo{
+    font-size: 2em;
+    color: white;
+    font-weight: 800;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+.logo:hover{
+    opacity: 1;
+}
+/*.btn{
+    padding: 0.5em 1em;
+    color: white;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 0.5em;
+    font-size: 1.1em;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    background-color: white;
+    color: var(--background);
+}*/
+span{
+    background: linear-gradient(to right, #6cff52, #3ec5ff);
+    background-clip: text;
+    color: transparent;
+}
+#menu{
+    color: white;
+    font-size: 2em;
+    display: none;
+}
+section{
+    min-height: 100vh;
+    padding: 5% 15%;
+}
+
+
+/* Education Page Section */
+#education-page {
+    max-width: 1200px;
+    margin: 3em auto;
+    padding: 6em 2em 2em;
+}
+
+.page-title {
+    font-size: 4em;
+    text-align: center;
+    margin-bottom: 2em 0 2em;
+    padding: 0.6em;
+}
+
+#education-page p{
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+#education-page ul{
+    list-style-type: disc;
+    margin-left: 1.5em;
+    padding-left: 0.5em;
+    display: block;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    opacity: 0.9;
+}
+#education-page li {
+    margin-bottom: 0.5em;
+}
+
+/* Content Layout */
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.description {
+    flex: 1 1 500px;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    opacity: 0.9;
+}
+
+
+.book {
+    flex: 0 1 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
+
+.book img {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    transition: transform 0.3s ease;
+}
+
+.book img:hover {
+    transform: scale(1.05);
+}
+
+.buy-link {
+    text-decoration: underline;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+    transition: color 0.3s ease;
+}
+
+.buy-link:hover {
+    color: #ffcc00;
+}
