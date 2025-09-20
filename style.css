@@ -143,7 +143,7 @@ section{
     width: 30vw;
     border-radius: 1em;
 }*/
-#location h1{
+#locations h1{
     font-size: 5em;
 }
 /*.location-container{
@@ -192,6 +192,20 @@ section{
 /*.about-box h2{
     font-size: 2.5em;
 }*/
+
+#guns{
+    background-color: var(--background);
+}
+#guns h1{
+    font-size: 5em;
+}
+.guns-container{
+    display: flex;
+    text-align: center;
+    gap: 10em;
+}
+
+
 
 #educate{
     background-color: var(--background);
